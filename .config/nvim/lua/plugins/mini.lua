@@ -1,8 +1,8 @@
 return {
-	{
-		"echasnovski/mini.pairs",
-		event = { "BufReadPost", "BufWritePost", "BufNewFile" },
-		version = "*",
-		opts = {},
-	},
+    {
+        "echasnovski/mini.pairs",
+        event = { "BufReadPost", "BufWritePost", "BufNewFile" },
+        version = "*",
+        opts = {},
+    },
 }

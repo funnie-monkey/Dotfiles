@@ -20,14 +20,14 @@ return {
                 show_end_of_buffer = false,
                 term_colors = true,
                 dim_inactive = {
-                    enabled = false, -- dims the background color of inactive window
+                    enabled = false,   -- dims the background color of inactive window
                     shade = "dark",
                     percentage = 0.15, --percentage of shade to apply to the inactive window
                 },
                 no_italic = false,
                 no_bold = false,
                 no_underline = false,
-                styles = {    -- Handles the styles of general hi groups (see `:h highlight-args`):
+                styles = {                   -- Handles the styles of general hi groups (see `:h highlight-args`):
                     comments = { "italic" }, -- Change the style of comments
                     conditionals = {},
                     loops = {},
@@ -86,23 +86,23 @@ return {
                         comments = "#4a4a4a",
                     },
                     mocha = {
-                        base = "#0F000D", -- Deep dark background
-                        mantle = "#001F1F", -- Dark contrast for UI elements
-                        crust = "#45475a", -- Lighter contrast for status line and line numbers
+                        base = "#0F000D",      -- Deep dark background
+                        mantle = "#001F1F",    -- Dark contrast for UI elements
+                        crust = "#45475a",     -- Lighter contrast for status line and line numbers
                         rosewater = "#FF937F", -- Soft pink for accents
-                        flamingo = "#CE4848", -- Soft red for errors
-                        pink = "#FF79C6", -- Bright neon pink for keywords
-                        mauve = "#CF60F8", -- Bright purple for functions
-                        red = "#F51D1D", -- Bright neon red for warnings
-                        maroon = "#610000", -- Dark red for git deletions
-                        peach = "#F15A22", -- Neon peach for constants
-                        yellow = "#FFFB0F", -- Bright neon yellow for variables
-                        green = "#2FFF25", -- Bright neon green for strings
-                        teal = "#2AF8FF", -- Bright teal for comments
-                        sky = "#43A0FF", -- Bright blue for types
-                        sapphire = "#0CA4E8", -- Bright blue for methods
-                        blue = "#1F42FF", -- Bright neon blue for documentation
-                        lavender = "#8421FC", -- Bright purple for inactive elements
+                        flamingo = "#CE4848",  -- Soft red for errors
+                        pink = "#FF79C6",      -- Bright neon pink for keywords
+                        mauve = "#CF60F8",     -- Bright purple for functions
+                        red = "#F51D1D",       -- Bright neon red for warnings
+                        maroon = "#610000",    -- Dark red for git deletions
+                        peach = "#F15A22",     -- Neon peach for constants
+                        yellow = "#FFFB0F",    -- Bright neon yellow for variables
+                        green = "#2FFF25",     -- Bright neon green for strings
+                        teal = "#2AF8FF",      -- Bright teal for comments
+                        sky = "#43A0FF",       -- Bright blue for types
+                        sapphire = "#0CA4E8",  -- Bright blue for methods
+                        blue = "#1F42FF",      -- Bright neon blue for documentation
+                        lavender = "#8421FC",  -- Bright purple for inactive elements
                     },
                 },
                 custom_highlights = {},

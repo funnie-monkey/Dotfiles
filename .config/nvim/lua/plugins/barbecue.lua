@@ -19,7 +19,7 @@ return {
             modified = { fg = "#f6f6f6" },
 
             -- these highlights represent the _text_ of three main parts of barbecue
-            dirname = { fg = "#600000" },
+            dirname = { fg = "#c80000" },
             basename = { bold = true },
             context = {},
         },

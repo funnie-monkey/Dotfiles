@@ -131,6 +131,7 @@ alt-9 = 'workspace 9'
 alt-d = 'workspace D'
 alt-s = 'workspace S'
 alt-t = 'workspace T'
+alt-v = 'workspace V'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -146,6 +147,7 @@ alt-shift-0 = 'move-node-to-workspace 10'
 alt-shift-d = 'move-node-to-workspace D'
 alt-shift-s = 'move-node-to-workspace S'
 alt-shift-t = 'move-node-to-workspace T'
+alt-shift-v = 'move-node-to-workspace V'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'

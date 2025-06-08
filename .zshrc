@@ -24,6 +24,7 @@ alias fzfn='nvim -o `fzf`'
 alias n="neofetch"
 alias load_monkey="./load_monkey.sh"
 alias lsd="lsd -a"
+alias brew_update="brew update && brew upgrade && brew cleanup"
 
 export PATH=$(brew --prefix sqlite)/bin:$PATH
 
